@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weight on Planet</title>
+    <link rel="stylesheet" href="st_3.css">
+    <!-- CSS Bootstrap only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <script src="st_3.js"></script>
+</head>
+<body>
+    <div id="main_content">
+        <img id="sun" onclick="f1()" src="Project_Image/Sun-removebg-preview.png">
+        <img id="mercury" onclick="f2()" src="Project_Image/mercury-removebg-preview.png">
+        <img id="venus" onclick="f3()" src="Project_Image/venus-removebg-preview.png">
+        <img id="earth" onclick="f4()" src="Project_Image/earth-removebg-preview.png">
+        <img id="mars" onclick="f5()" src="Project_Image/mars-removebg-preview.png">
+        <img id="jupiter" onclick="f6()" src="Project_Image/jupiter-removebg-preview.png">
+        <img id="saturn" onclick="f7()" src="Project_Image/saturan-removebg-preview.png">
+        <img id="uranus" onclick="f8()" src="Project_Image/uranus-removebg-preview.png">
+        <img id="neptune" onclick="f9()" src="Project_Image/neptune-removebg-preview.png">
+        <img id="pluto" onclick="f10()" src="Project_Image/pluto-removebg-preview.png">
+
+        <!-- when we hover on a planet, that will show the below card including name of planet, distance from earth and weight of your on that planet. -->
+        <!-- we can do this using js event listner -->
+        <div class="card" style="width: 19rem;height: 20rem;border-radius: 8%;">
+            <div class="card-body">
+              <h5 class="card-title style" style="font-size: 2rem; "><b> Find Your Weight</b></h5>
+              <p class="card-text"><i> Your mass is the same no matter what planet you’re on, but your weight changes because gravity is different. The reason gravity is different is because other planets have different masses and diameters from Earth.</i></p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">
+                <div><b>Weight:</b> 
+                  <input type="number" id="given_weight" placeholder="enter your weight in Kgs">
+              </li>
+            </ul>
+            <ul class="list-group list-group-flush" style="font-weight: bold;">
+              <li class="list-group-item">
+                <div id="name_planet"><b>Planet:</b>       
+              </li>
+            </ul>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item" style="align-items:center; font-weight: bold;">
+                <div id="new_weight"><b>New Weight:</b> 
+                  <img id="stars" src="Project_Image/icons8-shooting-stars-50.png"/>
+              </li>
+            </ul>
+            </div>
+          </div>
+    </div>
+    
+    </div>
+    </div>
+</body>
+</html>

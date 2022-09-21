@@ -1,0 +1,162 @@
+body{
+    background-image: url("Project_Image/Untitled\ design\ \(6\).png");
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    /* background-position-x: left; */
+    background-attachment: fixed;
+}
+h5{
+    font-size: large;
+    /* color: aliceblue; */
+    font-family: 'Tiro Devanagari Hindi', serif;
+}
+
+#main_container{
+    /* color: aliceblue; */
+    /* background-color: aquamarine; */
+    display: flex;
+    border: 1px solid black;
+    height: 190px;
+    width: 320px;
+    margin-top: 0px;
+    margin-left: 75rem;
+}
+#stars{
+    height: 30px;
+    width: 30px;
+    margin-top: -3rem;
+    margin-left: 14rem;
+}
+.card{
+    opacity: 70%;
+    margin-top: -33rem;
+    margin-left: 76rem;
+     
+}
+
+#sun{
+    margin-top: 180px;
+    height:270px;
+    margin-left: 0.1rem;
+    animation: rotation 14s infinite linear;
+}
+#sun:hover{
+    /* height: 275px; */
+    opacity: 80%;
+
+}
+#mercury{
+    height: 90px;
+    margin-top: -1rem;
+    margin-left: -3rem;
+    animation: rotation 3s infinite linear;
+}
+
+#mercury:hover{
+    /* height: 100px; */
+    opacity: 70%;  
+}
+#venus{
+    height: 80px;
+    margin-top: 3rem;
+    margin-left: 2rem;
+    animation: rotation 2s infinite linear;
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(359deg);
+    }
+}
+
+#venus:hover{
+    /* height: 90px; */
+    opacity: 70%;
+}
+#earth{
+    height: 140px;
+    margin-top: 15rem;
+    margin-left: -3rem;
+    animation: rotation 4s infinite linear;
+}
+#earth:hover{
+    /* height: 150px; */
+    opacity: 70%;
+}
+#mars{
+    height: 100px;
+    margin-top: -5rem;
+    margin-left: -5.8rem;
+    animation: rotation 3s infinite linear;
+}
+#mars:hover{
+    /* height: 110px; */
+    opacity: 70%;
+}
+#jupiter{
+    height: 170px;
+    margin-top: 11rem;
+    margin-left: 0rem;
+    animation: rotation 5s infinite linear;
+}
+#jupiter:hover{
+    /* height: 190px; */
+    opacity: 70%;
+}
+#saturn{
+    height: 110px;
+    margin-left: -15rem;
+    margin-top: -17rem;
+    animation: rotation 4s infinite linear;
+}
+
+#saturn:hover{
+    /* height: 120px; */
+    opacity: 70%;
+}
+#uranus{
+    height: 130px;
+    margin-top: 23rem;
+    margin-left: -1rem;
+    animation: rotation 4s infinite linear;
+}
+#uranus:hover{
+    /* height: 140px; */
+    opacity: 70%;
+}
+#neptune{
+    height: 110px;
+    margin-top: -9rem;
+    margin-left: -5rem;
+    animation: rotation 3s infinite linear;
+}
+#neptune:hover{
+    /* height: 120px; */
+    opacity: 70%;
+}
+#pluto{
+    height: 70px;
+    margin-top: 30rem;
+    margin-left: 5rem;
+    animation: rotation 3s infinite linear;
+}
+#pluto:hover{
+    /* height: 80px; */
+    opacity: 70%;
+}
+#planets{
+    margin-top: 10px;
+}
+
+#new_weight{
+    margin-top: 10px;
+}
+#comment{
+    margin-top: 10px;
+}  
+#find_weight{
+    margin: 10px 10px 10px 10px;
+}
